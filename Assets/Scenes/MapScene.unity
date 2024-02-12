@@ -714,6 +714,30 @@ PrefabInstance:
       propertyPath: faction
       value: 
       objectReference: {fileID: 515495942}
+    - target: {fileID: 6962563153200532327, guid: d2476f4a29c6c3f4398f3af94229c542, type: 3}
+      propertyPath: recruitList.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962563153200532327, guid: d2476f4a29c6c3f4398f3af94229c542, type: 3}
+      propertyPath: unitPrefabs.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962563153200532327, guid: d2476f4a29c6c3f4398f3af94229c542, type: 3}
+      propertyPath: recruitList.Array.data[0]
+      value: 
+      objectReference: {fileID: -7315148459643415311, guid: 360111ef79cbea64185db3a2a788f517, type: 3}
+    - target: {fileID: 6962563153200532327, guid: d2476f4a29c6c3f4398f3af94229c542, type: 3}
+      propertyPath: recruitList.Array.data[1]
+      value: 
+      objectReference: {fileID: 2470419407313558534, guid: e0f7d9fb6cc99a3439a03ecf792ac2f8, type: 3}
+    - target: {fileID: 6962563153200532327, guid: d2476f4a29c6c3f4398f3af94229c542, type: 3}
+      propertyPath: unitPrefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 186328, guid: e0f7d9fb6cc99a3439a03ecf792ac2f8, type: 3}
+    - target: {fileID: 6962563153200532327, guid: d2476f4a29c6c3f4398f3af94229c542, type: 3}
+      propertyPath: unitPrefabs.Array.data[1]
+      value: 
+      objectReference: {fileID: 154498, guid: 360111ef79cbea64185db3a2a788f517, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
