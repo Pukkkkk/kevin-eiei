@@ -25,6 +25,9 @@ public class Faction : MonoBehaviour
     [SerializeField] private List<Unit> aliveUnits = new List<Unit>();
     public List<Unit> AliveUnits { get { return aliveUnits; } }
 
+    [SerializeField] private List<Building> aliveBuildings = new List<Building>();
+    public List<Building> AliveBuildings { get { return aliveBuildings; }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -64,6 +67,11 @@ public class Faction : MonoBehaviour
     public bool IsMyUnit(Unit u)
     {
         return aliveUnits.Contains(u);
+    }
+
+    public bool IsMyBuilding(Building b)
+    {
+        return aliveBuildings.Contains(b);
     }
 
 }
