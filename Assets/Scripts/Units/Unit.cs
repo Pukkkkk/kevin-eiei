@@ -96,6 +96,12 @@ public class Unit : MonoBehaviour
         }
     }
 
+    public void ToggleSelectionVisual(bool flag)
+    {
+        if (selectionVisual != null)
+            selectionVisual.SetActive(flag);
+    }
+
     public void SetState(UnitState toState)
     {
         state = toState;
