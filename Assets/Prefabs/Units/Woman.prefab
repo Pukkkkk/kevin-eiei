@@ -3907,9 +3907,9 @@ GameObject:
   - component: {fileID: 8477071254231326814}
   - component: {fileID: -7315148459643415311}
   - component: {fileID: -1372926742294545416}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Woman
-  m_TagString: Untagged
+  m_TagString: Unit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4036,7 +4036,7 @@ MonoBehaviour:
   weaponRange: 0
   state: 0
   faction: {fileID: 0}
-  selectionVisual: {fileID: 0}
+  selectionVisual: {fileID: 2631818191834990713, guid: 58a1e7c666b597947aad32846e553566, type: 3}
   unitCost:
     food: 100
     wood: 10
