@@ -5,6 +5,10 @@ using TMPro;
 
 public class MainUI : MonoBehaviour
 {
+    [SerializeField]
+    private GameObject selectionMarker;
+    public GameObject SelectionMarker {  get { return selectionMarker; } }
+
     [SerializeField] private TextMeshProUGUI unitCountText;
     [SerializeField] private TextMeshProUGUI foodText;
     [SerializeField] private TextMeshProUGUI woodText;

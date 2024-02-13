@@ -568,6 +568,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ffd8da5a063f2a40aa9061d954a95a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  selectionMarker: {fileID: 1359941830616466063, guid: 58f2e17d59e335344a302b808c1978f7, type: 3}
   unitCountText: {fileID: 1903375459}
   foodText: {fileID: 1649949991}
   woodText: {fileID: 64135374}
