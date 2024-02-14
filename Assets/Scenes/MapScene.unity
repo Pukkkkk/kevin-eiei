@@ -4799,6 +4799,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ad409c19118fdd49a1da20a2630d7e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  unitPic: {fileID: 0}
+  hpIcon: {fileID: 1046270995}
+  rsrcIcon: {fileID: 1645121661}
+  moveIcon: {fileID: 91579376}
+  atkIcon: {fileID: 1206459199}
+  amrIcon: {fileID: 1194209800}
+  vslRngIcon: {fileID: 94327499}
+  wpRngIcon: {fileID: 150880295}
+  nameTxt: {fileID: 867740397}
+  hpTxt: {fileID: 110025088}
+  rsrcTxt: {fileID: 1024507723}
+  moveTxt: {fileID: 172667243}
+  atkTxt: {fileID: 297955427}
+  amrTxt: {fileID: 585012338}
+  vslRngTxt: {fileID: 237860620}
+  wpRngTxt: {fileID: 85050653}
 --- !u!114 &1750533576
 MonoBehaviour:
   m_ObjectHideFlags: 0
