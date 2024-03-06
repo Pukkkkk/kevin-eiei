@@ -113,6 +113,7 @@ public class UnitSelect : MonoBehaviour
     private void ShowBuilding(Building b)
     {
         InfoManager.instance.ShowAllInfo(b);
+        ActiveManager.instance.ShowCreateUnitMode(b);
     }
 
     private void BuildingSelect(RaycastHit hit)
