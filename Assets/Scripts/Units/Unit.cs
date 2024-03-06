@@ -83,6 +83,9 @@ public class Unit : MonoBehaviour
     void Awake()
     {
         navAgent = GetComponent<NavMeshAgent>();
+
+        if (IsBuilder)
+            builder = GetComponent<Builder>();
     }
 
     // Start is called before the first frame update
