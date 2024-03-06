@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class Builder : MonoBehaviour
 {
@@ -39,9 +40,17 @@ public class Builder : MonoBehaviour
         {
             GhostBuildingFollowsMouse();
 
-            if (Input.GetKeyDown(KeyCode.Escape) || Input.GetMouseButtonDown(1))
-                CancelToBuild();
+            if (Input.GetMouseButtonDown(0))
+            {
+                if (EventSystem.current.IsPointerOverGameObject())
+                    return;
+
+                CheckClickOnGround();
+            }
         }
+
+        if (Input.GetKeyDown(KeyCode.Escape) || Input.GetMouseButtonDown(1))
+            CancelToBuild();
     }
 
     public void ToCreateNewBuilding(int i) //Start call from ActionManager UI Btns

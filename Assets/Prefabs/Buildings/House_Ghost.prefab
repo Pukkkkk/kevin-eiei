@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: -4348522442561819851}
   - component: {fileID: 7580408077199741616}
   - component: {fileID: 5483496091236091639}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: House_Ghost
-  m_TagString: Building
+  m_TagString: GhostBuilding
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -112,7 +112,7 @@ GameObject:
   - component: {fileID: 7281390898538233836}
   - component: {fileID: 3251064604036193429}
   - component: {fileID: 5905331765083732862}
-  m_Layer: 8
+  m_Layer: 2
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -215,7 +215,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2300236982053348083}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Components
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -249,6 +249,10 @@ PrefabInstance:
     - target: {fileID: 110346, guid: aac9c1a836afea640963b9afeffd9f6f, type: 3}
       propertyPath: m_Name
       value: SM_Bld_Shanty_Preset_Bar_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 110346, guid: aac9c1a836afea640963b9afeffd9f6f, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 415744, guid: aac9c1a836afea640963b9afeffd9f6f, type: 3}
       propertyPath: m_RootOrder
