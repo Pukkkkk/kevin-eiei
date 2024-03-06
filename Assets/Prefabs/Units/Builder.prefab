@@ -4320,7 +4320,7 @@ MonoBehaviour:
   weaponRange: 0
   state: 0
   faction: {fileID: 0}
-  selectionVisual: {fileID: 0}
+  selectionVisual: {fileID: 2631818191834990713, guid: 58a1e7c666b597947aad32846e553566, type: 3}
   unitCost:
     food: 10
     wood: 20
@@ -4328,7 +4328,7 @@ MonoBehaviour:
     stone: 20
   unitWaitTime: 0.1
   isBuilder: 1
-  builder: {fileID: 0}
+  builder: {fileID: 5503339671894609055}
 --- !u!114 &3250389813203314843
 MonoBehaviour:
   m_ObjectHideFlags: 0
