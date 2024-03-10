@@ -4240,7 +4240,7 @@ Animator:
   m_GameObject: {fileID: 178864}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 409520c9226982345a49c9803624f208, type: 3}
-  m_Controller: {fileID: 9100000, guid: 9b5f3dc79387670409bc8aac8597ddd2, type: 2}
+  m_Controller: {fileID: 9100000, guid: fe312b9ca04a3eb46ab5090443ef3c4a, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -4321,7 +4321,7 @@ MonoBehaviour:
   weaponRange: 0
   state: 0
   faction: {fileID: 0}
-  selectionVisual: {fileID: 2631818191834990713, guid: 58a1e7c666b597947aad32846e553566, type: 3}
+  selectionVisual: {fileID: 2235027545040850533}
   unitCost:
     food: 10
     wood: 20
@@ -6344,5 +6344,10 @@ PrefabInstance:
 --- !u!4 &45764511613244508 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4260659865013523008, guid: 58a1e7c666b597947aad32846e553566, type: 3}
+  m_PrefabInstance: {fileID: 4288114067687851548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2235027545040850533 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2631818191834990713, guid: 58a1e7c666b597947aad32846e553566, type: 3}
   m_PrefabInstance: {fileID: 4288114067687851548}
   m_PrefabAsset: {fileID: 0}
