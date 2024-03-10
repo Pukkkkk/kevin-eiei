@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748171, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1639,15 +1639,15 @@ PrefabInstance:
     - target: {fileID: 6962563153200532327, guid: d2476f4a29c6c3f4398f3af94229c542, type: 3}
       propertyPath: unitPrefabs.Array.data[0]
       value: 
-      objectReference: {fileID: 178864, guid: 08d8aae2538d6c54cbd8a81fcd4595c2, type: 3}
+      objectReference: {fileID: 186328, guid: e0f7d9fb6cc99a3439a03ecf792ac2f8, type: 3}
     - target: {fileID: 6962563153200532327, guid: d2476f4a29c6c3f4398f3af94229c542, type: 3}
       propertyPath: unitPrefabs.Array.data[1]
       value: 
-      objectReference: {fileID: 186328, guid: e0f7d9fb6cc99a3439a03ecf792ac2f8, type: 3}
+      objectReference: {fileID: 154498, guid: 360111ef79cbea64185db3a2a788f517, type: 3}
     - target: {fileID: 6962563153200532327, guid: d2476f4a29c6c3f4398f3af94229c542, type: 3}
       propertyPath: unitPrefabs.Array.data[2]
       value: 
-      objectReference: {fileID: 154498, guid: 360111ef79cbea64185db3a2a788f517, type: 3}
+      objectReference: {fileID: 178864, guid: 08d8aae2538d6c54cbd8a81fcd4595c2, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:

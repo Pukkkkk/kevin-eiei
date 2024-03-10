@@ -4308,7 +4308,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 2
-  unitName: 
+  unitName: Builder
   unitPic: {fileID: 0}
   curHP: 0
   maxHP: 100
