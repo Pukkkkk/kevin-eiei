@@ -47,10 +47,20 @@ public class Builder : MonoBehaviour
 
                 CheckClickOnGround();
             }
+
+            if (Input.GetKeyDown(KeyCode.Escape) || Input.GetMouseButtonDown(1))
+                CancelToBuild();
         }
 
-        if (Input.GetKeyDown(KeyCode.Escape) || Input.GetMouseButtonDown(1))
-            CancelToBuild();
+        switch (unit.State)
+        {
+            case UnitState.MoveToBuild:
+                MoveToBuild(inProgressBuilding);
+                break;
+            case UnitState.BuildProgress:
+                BuildProgress();
+                break;
+        }
     }
 
     public void ToCreateNewBuilding(int i) //Start call from ActionManager UI Btns
@@ -173,6 +183,53 @@ public class Builder : MonoBehaviour
             {
                 //Debug.Log("Click Ground to Build");
                 CreateBuildingSite(hit.point); //Create building site with 1 HP
+            }
+        }
+    }
+
+    private void MoveToBuild(GameObject b)
+    {
+        if (b == null)
+            return;
+
+        unit.NavAgent.SetDestination(b.transform.position);
+        unit.NavAgent.isStopped = false;
+    }
+
+    private void BuildProgress()
+    {
+        if (inProgressBuilding == null)
+            return;
+
+        unit.LookAt(inProgressBuilding.transform.position);
+        Building b = inProgressBuilding.GetComponent<Building>();
+
+        //building is already finished
+        if ((b.CurHP >= b.MaxHP) && b.IsFunctional)
+        {
+            inProgressBuilding = null; //Clear this job off his mind
+            unit.SetState(UnitState.Idle);
+            return;
+        }
+        //constructing
+        b.Timer += Time.deltaTime;
+
+        if (b.Timer >= b.WaitTime)
+        {
+            b.Timer = 0;
+            b.CurHP++;
+
+            if (b.IsFunctional == false) //if this building is being built, not being fixed
+                //Raise up building from the ground
+                inProgressBuilding.transform.position += new Vector3(0f, b.IntoTheGround / (b.MaxHP - 1), 0f);
+
+            if (b.CurHP >= b.MaxHP) //finish
+            {
+                b.CurHP = b.MaxHP;
+                b.IsFunctional = true;
+
+                inProgressBuilding = null; //Clear this job off his mind
+                unit.SetState(UnitState.Idle);
             }
         }
     }
