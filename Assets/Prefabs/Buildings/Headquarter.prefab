@@ -102,9 +102,9 @@ GameObject:
   - component: {fileID: 3750265548220919244}
   - component: {fileID: 2584008857439750556}
   - component: {fileID: 8434560168964870347}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Headquarter
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -140,12 +140,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afbe86acdff46684293abccd8cca239f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  structureName: 
+  structureName: Headquarter
   structurePic: {fileID: 21300000, guid: b40a1983bae3f9a49944f057b6d1fe9c, type: 3}
   curHP: 0
-  maxHP: 0
+  maxHP: 100
   faction: {fileID: 0}
-  selectionVisual: {fileID: 0}
+  selectionVisual: {fileID: 2707171266699608693}
   structureCost:
     food: 20
     wood: 50
@@ -1350,6 +1350,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 678af14538b1f334891c9b12ecc50a1c, type: 3}
+--- !u!1 &2707171266699608693 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9206260611264428685, guid: 678af14538b1f334891c9b12ecc50a1c, type: 3}
+  m_PrefabInstance: {fileID: 6508537997796866296}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7748688266295706464 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3592225708129876888, guid: 678af14538b1f334891c9b12ecc50a1c, type: 3}

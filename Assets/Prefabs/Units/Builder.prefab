@@ -4243,7 +4243,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 705ca7b3b6a6e474faaceb9318a02e38, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -4319,7 +4319,7 @@ MonoBehaviour:
   armour: 0
   visualRange: 10
   weaponRange: 0
-  state: 0
+  state: 3
   faction: {fileID: 0}
   selectionVisual: {fileID: 2235027545040850533}
   unitCost:
