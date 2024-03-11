@@ -31,7 +31,7 @@ public class FindBuildingSite : MonoBehaviour
         if (flag)
         {
             for (int i = 0; i < modelRdr.Length; i++)
-                modelRdr[i].material.color = Color.green;
+                modelRdr[i].material.color = new Color32(0, 255, 0, 50);
 
             planeRdr.material.color = Color.green;
             canBuild = true;
