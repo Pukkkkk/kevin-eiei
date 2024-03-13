@@ -4320,7 +4320,7 @@ MonoBehaviour:
   armour: 0
   visualRange: 10
   weaponRange: 0
-  state: 3
+  state: 0
   faction: {fileID: 0}
   selectionVisual: {fileID: 2235027545040850533}
   unitCost:
@@ -4330,9 +4330,11 @@ MonoBehaviour:
     stone: 20
   unitWaitTime: 0.1
   isBuilder: 1
-  builder: {fileID: 5503339671894609055}
+  builder: {fileID: 0}
   isWorker: 1
   worker: {fileID: 0}
+  pathUpdateRate: 1
+  lastPathUpdateTime: 0
 --- !u!114 &3250389813203314843
 MonoBehaviour:
   m_ObjectHideFlags: 0

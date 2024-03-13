@@ -16,14 +16,7 @@ public class Worker : MonoBehaviour
 
     [SerializeField]
     private int amountCarry; //amount currently carried
-    public int AmountCarry
-    {
-        get { return amountCarry; }
-        set
-        {
-            amountCarry = value;
-        }
-    }
+    public int AmountCarry { get { return amountCarry; } set { amountCarry = value; } }
 
     [SerializeField]
     private int maxCarry = 25; //max amount to carry
