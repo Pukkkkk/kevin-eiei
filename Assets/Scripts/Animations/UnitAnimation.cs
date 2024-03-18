@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class UnitAnimation : MonoBehaviour
 {
-
     private Animator anim;
     private Unit unit;
 
@@ -26,6 +25,8 @@ public class UnitAnimation : MonoBehaviour
         anim.SetBool("IsIdle", false);
         anim.SetBool("IsMove", false);
         anim.SetBool("IsAttack", false);
+        anim.SetBool("IsBuildProgress", false);
+        anim.SetBool("IsGather", false);
 
         switch (u.State)
         {
@@ -37,6 +38,12 @@ public class UnitAnimation : MonoBehaviour
                 break;
             case UnitState.Attack:
                 anim.SetBool("IsAttack", true);
+                break;
+            case UnitState.BuildProgress:
+                anim.SetBool("IsBuildProgress", true);
+                break;
+            case UnitState.Gather:
+                anim.SetBool("IsGather", true);
                 break;
         }
     }
