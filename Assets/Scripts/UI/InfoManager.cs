@@ -89,4 +89,12 @@ public class InfoManager : MonoBehaviour
         hpTxt.text = $"{unit.CurHP}/{unit.MaxHP}";
     }
 
+    public void ShowAllInfo(ResourceSource r)
+    {
+        SetPic(r.RsrcPic);
+        nameTxt.text = r.RsrcName;
+        hpIcon.color = Color.white;
+        hpTxt.text = $"{r.Quantity}/{r.MaxQuantity}";
+    }
+
 }
