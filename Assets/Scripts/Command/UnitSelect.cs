@@ -168,6 +168,10 @@ public class UnitSelect : MonoBehaviour
             //Debug.Log("my building");
             ShowBuilding(curBuilding);//Show building info
         }
+        else
+        {
+            ShowEnemyBuilding(curBuilding);
+        }
     }
 
     private void UpdateSelectionBox(Vector3 mousePos)
@@ -234,5 +238,9 @@ public class UnitSelect : MonoBehaviour
         ShowResource();//Show resource info
     }
 
+    private void ShowEnemyBuilding(Building b)
+    {
+        InfoManager.instance.ShowEnemyAllInfo(b);
+    }
 
 }
