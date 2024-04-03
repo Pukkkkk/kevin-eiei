@@ -137,4 +137,15 @@ public class Building : Structure
     private float waitTime = 0.5f; //How fast it will be construct, higher is longer
     public float WaitTime { get { return waitTime; } set { waitTime = value; } }
 
+    public int CheckNumInRecruitList(int id)
+    {
+        int num = 0;
+
+        foreach (Unit u in recruitList)
+        {
+            if (id == u.ID)
+                num++;
+        }
+        return num;
+    }
 }

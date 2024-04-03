@@ -33,6 +33,7 @@ public class AISupport : MonoBehaviour
     {
         fighters.Clear();
         workers.Clear();
+        builders.Clear();
 
         foreach (Unit u in faction.AliveUnits)
         {

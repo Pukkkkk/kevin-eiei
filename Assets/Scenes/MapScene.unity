@@ -1100,6 +1100,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6962563153200532327, guid: f4fb9c2517aa43646a307765eaaefa19, type: 3}
+      propertyPath: curHP
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962563153200532327, guid: f4fb9c2517aa43646a307765eaaefa19, type: 3}
       propertyPath: faction
       value: 
       objectReference: {fileID: 254618149}
@@ -8325,7 +8329,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   randomRate: 0.3
-  frequency: 2
+  frequency: 0.1
   bestAI: {fileID: 0}
   bestAiValue: 0
 --- !u!114 &1688067578
