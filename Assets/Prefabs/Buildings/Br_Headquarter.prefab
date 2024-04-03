@@ -103,7 +103,7 @@ GameObject:
   - component: {fileID: 2584008857439750556}
   - component: {fileID: 8434560168964870347}
   m_Layer: 8
-  m_Name: Headquarter
+  m_Name: Br_Headquarter
   m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
