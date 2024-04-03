@@ -8347,6 +8347,9 @@ MonoBehaviour:
   fighters: []
   builders: []
   workers: []
+  hq: []
+  house: []
+  barrack: []
   faction: {fileID: 0}
 --- !u!114 &1688067579
 MonoBehaviour:
@@ -8366,6 +8369,21 @@ MonoBehaviour:
   curHunterLodge: {fileID: 0}
   unfinishedBuilding: {fileID: 0}
   specificBuilder: {fileID: 0}
+--- !u!114 &1688067580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688067574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b874444675921f44997a3f3fbb333de5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weightMultiplier: 1
+  timePassed: 0
+  rangeFromStartPos: 30
 --- !u!114 &1689638414 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6962563153200532327, guid: d2476f4a29c6c3f4398f3af94229c542, type: 3}
@@ -8693,6 +8711,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6893391145876697, guid: 3569faaa594aee549976e87cb477cf4b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1688067575}
+    - targetCorrespondingSourceObject: {fileID: 6893391145876697, guid: 3569faaa594aee549976e87cb477cf4b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1688067580}
   m_SourcePrefab: {fileID: 100100000, guid: 3569faaa594aee549976e87cb477cf4b, type: 3}
 --- !u!4 &1721960044 stripped
 Transform:
