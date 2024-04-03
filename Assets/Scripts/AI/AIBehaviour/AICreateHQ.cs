@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AICreateHQ : AIBehaviour
+public abstract class AICreateHQ : AIBehaviour
 {
     protected AISupport support;
 
