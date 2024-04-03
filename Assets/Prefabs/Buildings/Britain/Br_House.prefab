@@ -133,7 +133,7 @@ MonoBehaviour:
   curUnitWaitTime: 0
   isFunctional: 0
   isHQ: 0
-  isHousing: 0
+  isHousing: 1
   isBarrack: 0
   intoTheGround: 5
 --- !u!1 &6309971679450874968

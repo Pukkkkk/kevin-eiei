@@ -64,8 +64,9 @@ public class Faction : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+         UpdateHousingLimit();
     }
+    
     public bool CheckUnitCost(Unit unit)
     {
         if (food < unit.UnitCost.food)
@@ -214,8 +215,8 @@ public class Faction : MonoBehaviour
             unitLimit = 100;
         else if (unitLimit < 0)
             unitLimit = 0;
-
-        MainUI.instance.UpdateAllResource(this);
+        if (this == GameManager.instance.MyFaction) 
+            MainUI.instance.UpdateAllResource(this);
     }
 
     public bool CheckUnitCost(int i)
