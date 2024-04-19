@@ -162,7 +162,7 @@ MonoBehaviour:
   curUnitProgress: 0
   curUnitWaitTime: 0
   isFunctional: 0
-  isHQ: 0
+  isHQ: 1
   isHousing: 0
   isBarrack: 0
   intoTheGround: 5
