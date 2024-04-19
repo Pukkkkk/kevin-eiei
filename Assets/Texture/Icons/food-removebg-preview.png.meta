@@ -1,0 +1,1922 @@
+fileFormatVersion: 2
+guid: 88ca2b1ca06cc9f438eeb050f1334569
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: food-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 448
+        width: 175
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c428c5a9dbc8243b56edb89802b370
+      internalID: 339456818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 453
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14bd802e33cbdf43a8b1df0f93f3550
+      internalID: -258936756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 449
+        width: 92
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 46, y: 0, z: 4, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f09024e2390dd4da434a581fb81a38
+      internalID: 1395692804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 452
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5bbbd6b91de3a4b84e3fef00e2abc6
+      internalID: -15473825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 448
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fae193502193a54eb2830be9f2a586e
+      internalID: 1745841083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 410
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548ebca0effdffe49aae0a80432b49cf
+      internalID: -2073958106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 405
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af27fdaa4362bf048a43ed7294c91fb1
+      internalID: -898548633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 409
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f380a2b89bb8649a4c78781fee70ba
+      internalID: -1140455925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 406
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57fc824f8d947f41a0db1995986d0fb
+      internalID: 475080198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 410
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5bb8ee0352e09445bc5c6614e822154
+      internalID: -1591627856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 404
+        width: 175
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bbee258798013447bb0ee3dc9dc9b8b
+      internalID: 890646712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 410
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978d8a1780190044f92760f6c1bd2e43
+      internalID: 1382331586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 362
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41dbc87c7e4dfc04789ec7f0d902dc28
+      internalID: 1548965661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 366
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a29b50cbcd00e41bcbbd14f6451a9f
+      internalID: 388538299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 362
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d5686a710749249807412c489f3844
+      internalID: -2042087888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 362
+        width: 86
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809126bb5efb2fd4fa22de28b8d19590
+      internalID: 646852293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 368
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4c656701804e5449c5c49109041660
+      internalID: 1588717559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 362
+        width: 45
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ed6abb9f4870e449efdacb6340b787
+      internalID: 457575488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 368
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8acd4a65ce3ffcc4c92c0bc077f1e710
+      internalID: 359959967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 363
+        width: 44
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2461a551be32f4683e20d899ded803
+      internalID: 908394874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 367
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1e0d0604375b546baea3f5f65a862f
+      internalID: 2078795869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 318
+        width: 132
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a965218386170f44a760ee2e1f52f5e
+      internalID: -1493046061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 318
+        width: 85
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9466a5c4003a7e4498c56f6e96ab06e1
+      internalID: -1656058575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 325
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75721033a4bb1e44afd7e42b6cef0d1
+      internalID: 624126640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 318
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e807c3f3876d14d8dabcc38b23a802
+      internalID: -959643368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 325
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e5c94943cdde148ba69bba0dea420d
+      internalID: -943026997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 318
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5615bcfb01980247863b1d94e2e41f8
+      internalID: -1843928770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 324
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d754c83fed34e4abc4be82a0af687d
+      internalID: -1004803392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 231
+        width: 45
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1756b62d6ae561f488c8f467b89d8b0d
+      internalID: 1585821408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 280
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b34c4bcc78b60c41992123b90b5cdf0
+      internalID: -1027205624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 276
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b7e7f9e4038ce45b970ea9758a9440
+      internalID: 2118124245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 280
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af87c0d94e880d4392c517559f1d3f1
+      internalID: -1528909065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 275
+        width: 47
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: febbbf3c05a63194683a991eff5326e2
+      internalID: -548023198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 280
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afedb7d3c6fde674ba360a06f71c9d09
+      internalID: -1846099466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 276
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f17f40e7d13a604c96ce620389b927c
+      internalID: 1195768208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 282
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1083eb646ba60214cb25592301b514d6
+      internalID: -671345289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 276
+        width: 44
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bbf3fb7aa8b4064b97f948a55d5c646
+      internalID: 1540853788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 279
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f7cd43ae50c72489987c20097120bf
+      internalID: 616793741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 236
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e37f0c2e062c344b8e4065f687da1c
+      internalID: -1468762448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 232
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31fbfb5a8253814c9fbb5ea6cbcde16
+      internalID: 1527896803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 234
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47fb67113659f5140bd172131bc720de
+      internalID: 793043422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 234
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f4f3a13cc598e4dbe4811dd31dcf9b
+      internalID: -522333580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 188
+        width: 87
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ae8a0f39517fb44873f91c93237316
+      internalID: 411822545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 232
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1362b8312f5404b80d0b76aaee1b23
+      internalID: 304720227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 236
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5364916f9cbd841bdd7c5f576afecc
+      internalID: 1372273348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_45
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 232
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf66f79f49154d4f83ca6b0e42d442c
+      internalID: -394607931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_46
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 190
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af2328f0a7b5bd43be054ca0c5c3512
+      internalID: 1766827071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_47
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 188
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca18bd580f2c96c4187a346fb2b4bebf
+      internalID: -655247854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_48
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 192
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64a39318b6693e458399976d4fc0d59
+      internalID: -624401445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_49
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 188
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087f7475cdc946649a4f0db1efab4f12
+      internalID: 1113134143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_50
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 190
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363041203a813194880bf3a2b8aa4c71
+      internalID: -1164637401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_51
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 189
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07cbf01a72192674fbbf06e204a633e3
+      internalID: 544223428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_52
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 192
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04169b70fd4db354a9f78d36933ce3be
+      internalID: 52960716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_53
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 188
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73847d3258cbdfc42ab7dd8573a88a55
+      internalID: -1938990605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_54
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 149
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7541ffb8ce65d49b069cb75bf7a623
+      internalID: 189619527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_55
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 145
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4497a2f4f74f2a749b34e48aebd3d7b6
+      internalID: 1672062848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_56
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 153
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab6cdc9d5faffa4e87724bec6ea11cb
+      internalID: -214753069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_57
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 145
+        width: 45
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0c67c6b18740a44bb2933525cb7a02
+      internalID: -928890847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_58
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 152
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03399cbf29424454c930e2db5b13d848
+      internalID: -483589861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_59
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 145
+        width: 86
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43060cb1086ed7c4fb53267068398f49
+      internalID: -100084119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_60
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 145
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef22955aedcc2054f85c59c59adc54e7
+      internalID: 1517715266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_61
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 149
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5bc1d2442cc4f847a1bd9c6ca1e3e80
+      internalID: -1610284055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_62
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 145
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48290472a9ef67942a800696ee421ed9
+      internalID: -4386422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_63
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 107
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e6512910f4ec6448ff4d81e618f4b4
+      internalID: 1737366054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_64
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 100
+        width: 88
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0682f48e065544a91ae88bc6a03f07
+      internalID: -12251677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_65
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 101
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48477cf63a1bd9f4e95c0b9c9df7b67f
+      internalID: 2030025960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_66
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 102
+        width: 129
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b8e3e0347326f499bac50244485813
+      internalID: 1716822266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_67
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 107
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2164ee13a19c00a42a5434e8be338e4d
+      internalID: 1452936321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_68
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 101
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b500d0ee801c9479835f9125e96731
+      internalID: 169202529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_69
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 107
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad442a4c52f7e848a6cf6a4b2d6be9d
+      internalID: -1560676719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_70
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 58
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353f25e320ef46645a0afe3f66e765d8
+      internalID: 722843234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_71
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 63
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec06e1b7c67d7f4c8690a8fe056ee21
+      internalID: 1477428593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_72
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 58
+        width: 88
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ebc30566c64644cb8da1424885c878
+      internalID: 1375757673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_73
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 66
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c01f997e5338046a8c285c8ec6e3ec
+      internalID: -1925272535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_74
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 57
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f183fbb61a8072e4aa01d1238b96ba61
+      internalID: -614906472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_75
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 65
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60b52affb2480446b5a8fdeae6ffb4e
+      internalID: -444333399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_76
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 58
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ae7f6085ceaf7459f87bf27ea9461c
+      internalID: -1189306396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_77
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 66
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5291735ae3b2749a768b367f86f50e
+      internalID: 905239608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_78
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 58
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdfdcb707b3622846b9e13827b9dba56
+      internalID: -1673290014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_79
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 19
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f55cd94df513ba40b36feac974b7d8f
+      internalID: 1668728100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food-removebg-preview_80
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 15
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9eef48e1836e914ab332c5364f22f0f
+      internalID: -1681725558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3a75f0e72817a5a488852f4d301c44ba
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      food-removebg-preview_0: 339456818
+      food-removebg-preview_1: -258936756
+      food-removebg-preview_10: 890646712
+      food-removebg-preview_11: 1382331586
+      food-removebg-preview_12: 1548965661
+      food-removebg-preview_13: 388538299
+      food-removebg-preview_14: -2042087888
+      food-removebg-preview_15: 646852293
+      food-removebg-preview_16: 1588717559
+      food-removebg-preview_17: 457575488
+      food-removebg-preview_18: 359959967
+      food-removebg-preview_19: 908394874
+      food-removebg-preview_2: 1395692804
+      food-removebg-preview_20: 2078795869
+      food-removebg-preview_21: -1493046061
+      food-removebg-preview_22: -1656058575
+      food-removebg-preview_23: 624126640
+      food-removebg-preview_24: -959643368
+      food-removebg-preview_25: -943026997
+      food-removebg-preview_26: -1843928770
+      food-removebg-preview_27: -1004803392
+      food-removebg-preview_28: 1585821408
+      food-removebg-preview_29: -1027205624
+      food-removebg-preview_3: -15473825
+      food-removebg-preview_30: 2118124245
+      food-removebg-preview_31: -1528909065
+      food-removebg-preview_32: -548023198
+      food-removebg-preview_33: -1846099466
+      food-removebg-preview_34: 1195768208
+      food-removebg-preview_35: -671345289
+      food-removebg-preview_36: 1540853788
+      food-removebg-preview_37: 616793741
+      food-removebg-preview_38: -1468762448
+      food-removebg-preview_39: 1527896803
+      food-removebg-preview_4: 1745841083
+      food-removebg-preview_40: 793043422
+      food-removebg-preview_41: -522333580
+      food-removebg-preview_42: 411822545
+      food-removebg-preview_43: 304720227
+      food-removebg-preview_44: 1372273348
+      food-removebg-preview_45: -394607931
+      food-removebg-preview_46: 1766827071
+      food-removebg-preview_47: -655247854
+      food-removebg-preview_48: -624401445
+      food-removebg-preview_49: 1113134143
+      food-removebg-preview_5: -2073958106
+      food-removebg-preview_50: -1164637401
+      food-removebg-preview_51: 544223428
+      food-removebg-preview_52: 52960716
+      food-removebg-preview_53: -1938990605
+      food-removebg-preview_54: 189619527
+      food-removebg-preview_55: 1672062848
+      food-removebg-preview_56: -214753069
+      food-removebg-preview_57: -928890847
+      food-removebg-preview_58: -483589861
+      food-removebg-preview_59: -100084119
+      food-removebg-preview_6: -898548633
+      food-removebg-preview_60: 1517715266
+      food-removebg-preview_61: -1610284055
+      food-removebg-preview_62: -4386422
+      food-removebg-preview_63: 1737366054
+      food-removebg-preview_64: -12251677
+      food-removebg-preview_65: 2030025960
+      food-removebg-preview_66: 1716822266
+      food-removebg-preview_67: 1452936321
+      food-removebg-preview_68: 169202529
+      food-removebg-preview_69: -1560676719
+      food-removebg-preview_7: -1140455925
+      food-removebg-preview_70: 722843234
+      food-removebg-preview_71: 1477428593
+      food-removebg-preview_72: 1375757673
+      food-removebg-preview_73: -1925272535
+      food-removebg-preview_74: -614906472
+      food-removebg-preview_75: -444333399
+      food-removebg-preview_76: -1189306396
+      food-removebg-preview_77: 905239608
+      food-removebg-preview_78: -1673290014
+      food-removebg-preview_79: 1668728100
+      food-removebg-preview_8: 475080198
+      food-removebg-preview_80: -1681725558
+      food-removebg-preview_9: -1591627856
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
