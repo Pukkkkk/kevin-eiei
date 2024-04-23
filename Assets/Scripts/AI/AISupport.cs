@@ -31,12 +31,6 @@ public class AISupport : MonoBehaviour
         faction = GetComponent <Faction>();
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        faction = GetComponent<Faction>();
-    }
-
     // Update is called once per frame
     void Update()
     {
@@ -53,7 +47,8 @@ public class AISupport : MonoBehaviour
         {
             if (u.gameObject == null)
                 continue;
-                if (u.IsBuilder) //if it is a builder
+
+            if (u.IsBuilder) //if it is a builder
                 builders.Add(u.gameObject);
             
             if (u.IsWorker) //if it is a worker
@@ -72,8 +67,10 @@ public class AISupport : MonoBehaviour
                 continue;
             if (b.IsHQ)
                 hq.Add(b.gameObject);
+
             if (b.IsHousing)
                 house.Add(b.gameObject);
+
             if (b.IsBarrack)
                 barrack.Add(b.gameObject);
         }

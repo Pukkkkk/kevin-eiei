@@ -133,6 +133,7 @@ public class Faction : MonoBehaviour
         {
             if (b == null)
                 continue;
+
             if (b.IsHQ)
                 return b.SpawnPoint.position;
         }
