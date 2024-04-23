@@ -49,10 +49,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afbe86acdff46684293abccd8cca239f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  structureName: 
+  structureName: House
   structurePic: {fileID: 0}
   curHP: 0
-  maxHP: 0
+  maxHP: 100
   faction: {fileID: 0}
   selectionVisual: {fileID: 4518362745524689957}
   structureCost:
