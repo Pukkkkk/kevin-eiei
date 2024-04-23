@@ -4369,13 +4369,9 @@ MonoBehaviour:
   toBuild: 0
   showGhost: 0
   buildingList:
-  - {fileID: 6450994354275691072, guid: d2476f4a29c6c3f4398f3af94229c542, type: 3}
-  - {fileID: 1086847659801125576, guid: 41bb1ef54206f564783ab6c8c82c92c0, type: 3}
-  - {fileID: 7743729509252968206, guid: 6c2a92c8486e8db4487ec9ee6fe4c037, type: 3}
+  - {fileID: 611023839292370727, guid: c76d6019d8b71c94181110a384ede7e7, type: 3}
   ghostBuildingList:
-  - {fileID: 6450994354275691072, guid: 25b41e49f21e6de41abcfe84baa2f0cb, type: 3}
-  - {fileID: 1086847659801125576, guid: ddc216952df88c846a7e666fa3da4925, type: 3}
-  - {fileID: 7743729509252968206, guid: f474ceb29695a5040a6f0edf883c7c27, type: 3}
+  - {fileID: 611023839292370727, guid: a3104409dacd43044b2e5be1373d1153, type: 3}
   newBuilding: {fileID: 0}
   ghostBuilding: {fileID: 0}
   inProgressBuilding: {fileID: 0}

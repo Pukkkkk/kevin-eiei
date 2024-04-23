@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3411566628496211012}
   - component: {fileID: 950530557423957695}
-  - component: {fileID: 4132335923645551148}
   - component: {fileID: 5113255431715294693}
   - component: {fileID: 3375743475491466379}
+  - component: {fileID: -7881953131755828758}
   m_Layer: 8
   m_Name: Br_FortTower
   m_TagString: Building
@@ -69,6 +69,8 @@ MonoBehaviour:
   curUnitWaitTime: 0
   isFunctional: 0
   isHQ: 0
+  isHousing: 0
+  isBarrack: 0
   intoTheGround: 5
   unitLayerMask:
     serializedVersion: 2
@@ -78,33 +80,6 @@ MonoBehaviour:
   shootRange: 50
   shootDamage: 10
   state: 0
---- !u!54 &4132335923645551148
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7743729509252968206}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!208 &5113255431715294693
 NavMeshObstacle:
   m_ObjectHideFlags: 0
@@ -144,6 +119,33 @@ CapsuleCollider:
   m_Height: 15.25
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &-7881953131755828758
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7743729509252968206}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &8664960375595103135
 GameObject:
   m_ObjectHideFlags: 0

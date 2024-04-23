@@ -59,12 +59,15 @@ public class Faction : MonoBehaviour
     private int housingUnitNum = 5; //number of units per each housing
     public int HousingUnitNum { get { return housingUnitNum; } }
 
-
+    private void Start()
+    {
+        UpdateHousingLimit();
+    }
 
     // Update is called once per frame
     void Update()
     {
-         UpdateHousingLimit();
+         
     }
     
     public bool CheckUnitCost(Unit unit)
@@ -216,6 +219,7 @@ public class Faction : MonoBehaviour
             unitLimit = 100;
         else if (unitLimit < 0)
             unitLimit = 0;
+
         if (this == GameManager.instance.MyFaction) 
             MainUI.instance.UpdateAllResource(this);
     }
