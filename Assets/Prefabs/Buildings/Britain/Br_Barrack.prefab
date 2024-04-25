@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 875600596116076277}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.7271436, y: 0, z: -1.509521}
+  m_LocalPosition: {x: 0.7271436, y: -0.24, z: -1.509521}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -115,8 +115,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afbe86acdff46684293abccd8cca239f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  structureName: Headquarter
-  structurePic: {fileID: 21300000, guid: b40a1983bae3f9a49944f057b6d1fe9c, type: 3}
+  structureName: Barrack
+  structurePic: {fileID: 21300000, guid: a3657966288b0a34d8a26da17c103605, type: 3}
   curHP: 0
   maxHP: 100
   faction: {fileID: 0}
@@ -158,8 +158,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 15.93, y: 10, z: 22}
-  m_Center: {x: 0.19, y: 6.9, z: 0.4}
+  m_Size: {x: 8.03, y: 10, z: 11.76}
+  m_Center: {x: 0.92, y: 6.9, z: -0.4}
 --- !u!208 &8434560168964870347
 NavMeshObstacle:
   m_ObjectHideFlags: 0
@@ -170,11 +170,11 @@ NavMeshObstacle:
   m_Enabled: 1
   serializedVersion: 3
   m_Shape: 1
-  m_Extents: {x: 4.6, y: 4.855, z: 6.815}
+  m_Extents: {x: 3.7, y: 4.855, z: 5.57}
   m_MoveThreshold: 0.1
   m_Carve: 1
   m_CarveOnlyStationary: 1
-  m_Center: {x: 0.79, y: 6.97, z: -0.2}
+  m_Center: {x: 0.97, y: 6.97, z: -0.4}
   m_TimeToStationary: 0.5
 --- !u!54 &-8787135400343657071
 Rigidbody:

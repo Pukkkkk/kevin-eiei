@@ -50,7 +50,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   structureName: House
-  structurePic: {fileID: 0}
+  structurePic: {fileID: 21300000, guid: 4c959623ca54db14aa06d57d0f4289da, type: 3}
   curHP: 0
   maxHP: 100
   faction: {fileID: 0}

@@ -28,15 +28,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7743729509252968206}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0.5789283, y: 0, z: 0.8149724}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2394656171809090131}
   - {fileID: 5900719325550994526}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &950530557423957695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49,8 +49,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da48204a5c6a55b4aac31f420fbd3e11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  structureName: 
-  structurePic: {fileID: 0}
+  structureName: FortTower
+  structurePic: {fileID: 21300000, guid: 230e46ea1fa4ec94c831b4b26a4ad785, type: 3}
   curHP: 0
   maxHP: 100
   faction: {fileID: 0}

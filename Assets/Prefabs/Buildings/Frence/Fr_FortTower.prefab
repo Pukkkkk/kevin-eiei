@@ -49,8 +49,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da48204a5c6a55b4aac31f420fbd3e11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  structureName: 
-  structurePic: {fileID: 0}
+  structureName: FortTower
+  structurePic: {fileID: 21300000, guid: 230e46ea1fa4ec94c831b4b26a4ad785, type: 3}
   curHP: 0
   maxHP: 100
   faction: {fileID: 0}
@@ -69,6 +69,8 @@ MonoBehaviour:
   curUnitWaitTime: 0
   isFunctional: 0
   isHQ: 0
+  isHousing: 0
+  isBarrack: 0
   intoTheGround: 5
   unitLayerMask:
     serializedVersion: 2
