@@ -89,11 +89,26 @@ AnimatorStateTransition:
   - m_ConditionMode: 2
     m_ConditionEvent: IsMove
     m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsMoveToBuild
+    m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: IsBuildProgress
     m_EventTreshold: 0
   - m_ConditionMode: 2
+    m_ConditionEvent: IsMoveToResource
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
     m_ConditionEvent: IsGather
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsDeliverToHQ
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsStoreAtHQ
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsMoveToEnemy
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 4282861941563285327}
@@ -134,6 +149,15 @@ AnimatorStateTransition:
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: IsGather
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsDeliverToHQ
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsStoreAtHQ
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsMoveToEnemy
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1992182256560807791}
@@ -222,7 +246,19 @@ AnimatorStateTransition:
     m_ConditionEvent: IsBuildProgress
     m_EventTreshold: 0
   - m_ConditionMode: 2
+    m_ConditionEvent: IsMoveToResource
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
     m_ConditionEvent: IsGather
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsDeliverToHQ
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsStoreAtHQ
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsMoveToEnemy
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2973991519896904358}
@@ -381,10 +417,25 @@ AnimatorStateTransition:
     m_ConditionEvent: IsMove
     m_EventTreshold: 0
   - m_ConditionMode: 2
+    m_ConditionEvent: IsMoveToBuild
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
     m_ConditionEvent: IsBuildProgress
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: IsGather
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsDeliverToHQ
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsStoreAtHQ
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsMoveToEnemy
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsMoveToResource
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -8678536858626931731}
@@ -495,10 +546,10 @@ AnimatorStateMachine:
     m_Position: {x: 680, y: -30, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 4282861941563285327}
-    m_Position: {x: 170, y: 280, z: 0}
+    m_Position: {x: 150, y: 280, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -2973991519896904358}
-    m_Position: {x: 830, y: 90, z: 0}
+    m_Position: {x: 850, y: 70, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -1992182256560807791}
     m_Position: {x: 850, y: 180, z: 0}
@@ -507,7 +558,7 @@ AnimatorStateMachine:
     m_Position: {x: 750, y: 370, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 7300369492884361486}
-    m_Position: {x: 280, y: 390, z: 0}
+    m_Position: {x: 260, y: 380, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 3506164684875801835}
     m_Position: {x: 490, y: 390, z: 0}
@@ -706,10 +757,25 @@ AnimatorStateTransition:
     m_ConditionEvent: IsMove
     m_EventTreshold: 0
   - m_ConditionMode: 2
+    m_ConditionEvent: IsMoveToBuild
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
     m_ConditionEvent: IsBuildProgress
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsMoveToResource
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: IsGather
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsDeliverToHQ
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsStoreAtHQ
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsMoveToEnemy
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 4908400594750786614}
