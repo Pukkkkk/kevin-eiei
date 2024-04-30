@@ -12,6 +12,9 @@ public class ResourceManager : MonoBehaviour
 
     [SerializeField] private Transform appleTreeParent;
 
+    [SerializeField] private Transform stoneParent;
+    [SerializeField] private Transform goldParent;
+
     [SerializeField]
     private ResourceSource[] resources;
     public ResourceSource[] Resources { get { return resources; } }
