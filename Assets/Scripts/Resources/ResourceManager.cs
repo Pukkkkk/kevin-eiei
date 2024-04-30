@@ -10,6 +10,8 @@ public class ResourceManager : MonoBehaviour
     [SerializeField]
     private Transform woodTreeParent;
 
+    [SerializeField] private Transform appleTreeParent;
+
     [SerializeField]
     private ResourceSource[] resources;
     public ResourceSource[] Resources { get { return resources; } }
