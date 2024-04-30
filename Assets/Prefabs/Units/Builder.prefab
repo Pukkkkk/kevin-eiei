@@ -4327,10 +4327,10 @@ MonoBehaviour:
   faction: {fileID: 0}
   selectionVisual: {fileID: 2235027545040850533}
   unitCost:
-    food: 10
+    food: 50
     wood: 20
-    gold: 10
-    stone: 20
+    gold: 100
+    stone: 60
   unitWaitTime: 0.1
   isBuilder: 1
   builder: {fileID: 0}

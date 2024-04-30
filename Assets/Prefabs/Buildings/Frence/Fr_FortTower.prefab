@@ -57,10 +57,10 @@ MonoBehaviour:
   faction: {fileID: 0}
   selectionVisual: {fileID: 5640037080813190759}
   structureCost:
-    food: 0
-    wood: 0
-    gold: 0
-    stone: 0
+    food: 200
+    wood: 100
+    gold: 300
+    stone: 500
   spawnPoint: {fileID: 0}
   rallyPoint: {fileID: 0}
   unitPrefabs: []
