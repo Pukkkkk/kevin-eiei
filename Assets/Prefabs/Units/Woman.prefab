@@ -3907,6 +3907,7 @@ GameObject:
   - component: {fileID: 8477071254231326814}
   - component: {fileID: -7315148459643415311}
   - component: {fileID: -1372926742294545416}
+  - component: {fileID: 4482063574765139}
   m_Layer: 6
   m_Name: Woman
   m_TagString: Unit
@@ -4065,6 +4066,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 74a7a937e1ddcb9499e57fc155ff6620, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4482063574765139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 283a7f8d1065e42449eab3cc96de8608, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &155098

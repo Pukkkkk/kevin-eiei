@@ -77,6 +77,7 @@ GameObject:
   - component: {fileID: 3750265548220919244}
   - component: {fileID: 2584008857439750556}
   - component: {fileID: 8434560168964870347}
+  - component: {fileID: -2890759921692013731}
   m_Layer: 8
   m_Name: Fr_Barrack
   m_TagString: Building
@@ -203,6 +204,18 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.92, y: 6.97, z: -0.4}
   m_TimeToStationary: 0.5
+--- !u!114 &-2890759921692013731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6450994354275691072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 283a7f8d1065e42449eab3cc96de8608, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9019146948033341341
 GameObject:
   m_ObjectHideFlags: 0

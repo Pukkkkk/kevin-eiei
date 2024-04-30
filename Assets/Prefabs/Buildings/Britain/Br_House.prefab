@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7136364658795980075}
   - component: {fileID: 5637205898223337839}
   - component: {fileID: 1820001913284679565}
+  - component: {fileID: -5885166916296184552}
   m_Layer: 8
   m_Name: Br_House
   m_TagString: Building
@@ -136,6 +137,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-5885166916296184552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611023839292370727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 283a7f8d1065e42449eab3cc96de8608, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8171243854454910669
 GameObject:
   m_ObjectHideFlags: 0
