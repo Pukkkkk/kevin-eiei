@@ -142,8 +142,8 @@ MonoBehaviour:
   rsrcName: Rock
   rsrcPic: {fileID: 0}
   rsrcType: 3
-  quantity: 100
-  maxQuantity: 100
+  quantity: 50
+  maxQuantity: 50
   selectionVisual: {fileID: 7676715933767634908}
   onRsrcQuantityChange:
     m_PersistentCalls:
@@ -316,11 +316,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2518177475016035249, guid: f0a434a7a8bffcb4a92cec577bc431e1, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9238795
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2518177475016035249, guid: f0a434a7a8bffcb4a92cec577bc431e1, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.38268346
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2518177475016035249, guid: f0a434a7a8bffcb4a92cec577bc431e1, type: 3}
       propertyPath: m_LocalRotation.y

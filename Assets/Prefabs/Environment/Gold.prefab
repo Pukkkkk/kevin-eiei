@@ -142,8 +142,8 @@ MonoBehaviour:
   rsrcName: Gold
   rsrcPic: {fileID: 0}
   rsrcType: 2
-  quantity: 100
-  maxQuantity: 100
+  quantity: 25
+  maxQuantity: 25
   selectionVisual: {fileID: 9191107676948740061}
   onRsrcQuantityChange:
     m_PersistentCalls:
